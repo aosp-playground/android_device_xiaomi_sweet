@@ -7,6 +7,15 @@ persist.vendor.audio.voicecall.speaker.stereo=true
 vendor.audio.feature.compr_voip.enable=false
 vendor.voice.path.for.pcm.voip=false
 
+# Display
+ro.vendor.bl.poll=true
+ro.vendor.display.ad=1
+ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
+ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
+ro.vendor.display.sensortype=2
+ro.vendor.histogram.enable=true
+ro.vendor.bcbc.enable=true
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
