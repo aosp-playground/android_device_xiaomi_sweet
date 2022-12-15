@@ -22,6 +22,15 @@
     <dimen name="navigation_side_padding">85.0dip</dimen>
     <dimen name="rounded_corner_content_padding">10dp</dimen>
 
+    <!-- Starting padding for a left-aligned status bar clock -->
+    <dimen name="status_bar_left_clock_starting_padding">8dp</dimen>
+
+    <!-- End padding for left-aligned status bar clock -->
+    <dimen name="status_bar_left_clock_end_padding">3dp</dimen>
+
+    <!-- gap on either side of status bar notification icons -->
+    <dimen name="status_bar_icon_padding">-1dp</dimen>
+
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">1100px</dimen>
 
