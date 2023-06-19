@@ -78,7 +78,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Overlay-RRO
 PRODUCT_PACKAGES += \
-  	SettingsOverlayRR \
+    SettingsOverlayRR \
     SweetinproSettingsProvider \
     SweetinproWifiOverlay \
     SweetWifiOverlay
