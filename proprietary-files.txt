@@ -42,10 +42,19 @@ vendor/firmware/osc_rtp_24K_5s.bin
 # Audio extensions
 -vendor/lib/btaudio_offload_if.so
 -vendor/lib/liba2dpoffload.so
+-vendor/lib/libaudioalsa.so
+-vendor/lib/libaudioconfigstore.so
+-vendor/lib/libbatterylistener.so
+-vendor/lib/libcirrusspkrprot.so
+-vendor/lib/libcomprcapture.so
+-vendor/lib/libdrc.so
 -vendor/lib/libhdmiedid.so
+-vendor/lib/libhdmipassthru.so
 -vendor/lib/libhfp.so
 -vendor/lib/libsndmonitor.so
 -vendor/lib/libspkrprot.so
+-vendor/lib/libssrec.so
+-vendor/lib/libsurround_3mic_proc.so
 
 # Batterysecret
 -vendor/bin/batterysecret
@@ -227,8 +236,8 @@ vendor/etc/camera/watermark_font_2300_3199.dat
 
 # Camera face detection
 vendor/etc/camera/megviifacepp_0_5_2_model:vendor/etc/camera/facedetectpp_0_5_2_model
--vendor/lib64/libmegface.so:vendor/lib64/libfacedet.so
 -vendor/lib64/libMegviiFacepp-0.5.2.so:vendor/lib64/libFaceDetectpp-0.5.2.so
+-vendor/lib64/libmegface.so:vendor/lib64/libfacedet.so
 
 # Camera-firmware
 vendor/firmware/CAMERA_ICP.elf
