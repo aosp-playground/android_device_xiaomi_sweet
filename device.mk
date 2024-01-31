@@ -70,14 +70,14 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
-# Overlay-RRO
 PRODUCT_PACKAGES += \
+    SweetFrameworksOverlay \
+    SweetSettingsOverlay \
+    SweetSettingsProviderOverlay \
+    SweetSystemUIOverlay \
+    SweetWifiOverlay \
     SweetinproSettingsProvider \
-    SweetinproWifiOverlay \
-    SweetWifiOverlay
+    SweetinproWifiOverlay
 
 # Power
 PRODUCT_COPY_FILES += \
